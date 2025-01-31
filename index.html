@@ -26,7 +26,7 @@
         <nav class="md:container mx-auto p-5 max-sm:p-4 max-sm:pb-0">
             <!-- nav bar for mobile only -->
             <div class=" mb-0 navbar bg-base-100  ">
-                <div  class="dropdown flex justify-between">
+                <div class="dropdown flex justify-between">
                     <img src="./logo_favicon.png" class="w-1/6 sm:hidden">
                     <button class="btn btn-square btn-ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -35,13 +35,13 @@
                                 d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                         <ul tabindex="0"
-                        class="menu menu-sm dropdown-content rounded-box z-[1] mt-20 h-25 w-50 p-2 shadow bg-indigo-300 font-bold text-white">
-                        <li><a>Product</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Contact Us</a></li>
-                        <li><a>Login</a></li>
-                        <li><a>Register</a></li>
-                    </ul>
+                            class="menu menu-sm dropdown-content rounded-box z-[1] mt-20 h-25 w-50 p-2 shadow bg-indigo-300 font-bold text-white">
+                            <li><a>Product</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Contact Us</a></li>
+                            <li><a>Login</a></li>
+                            <li><a>Register</a></li>
+                        </ul>
                     </button>
 
                 </div>
@@ -83,7 +83,8 @@
                     <div class="navbar-end gap-3 ">
                         <i class="fa-solid fa-magnifying-glass max-sm:hidden mr-1 cursor-pointer"></i>
                         <i class="fa-solid fa-cart-shopping max-sm:hidden mr-2 cursor-pointer"></i>
-                        <a class="btn bg-transparent  border-[#179800] rounded-lg max-sm:hidden hover:bg-[#A6F499]">Login</a>
+                        <a
+                            class="btn bg-transparent  border-[#179800] rounded-lg max-sm:hidden hover:bg-[#A6F499]">Login</a>
                         <a class="btn text-white bg-[#179800] rounded-lg max-sm:hidden hover:bg-[#A6F499] ">Register</a>
                     </div>
                 </div>
@@ -101,7 +102,45 @@
 
     <!-- Main Part-->
     <main class="">
+        <!-- services section -->
+        <section class="max-sm:p-4 max-sm:mt-10 md:container mx-auto mt-20 mb-20">
+            <h1 class=" text-[#179800] text-3xl md:text-4xl font-semibold mb-10">Services</h1>
 
+            <div class="card_container grid grid-cols-1 md:grid-cols-3 gap-5"> 
+                <!-- Card 1 -->
+                <div class="p-3 md:p-3 bg-[#EFEBE3] flex flex-col items-center justify-center rounded-xl">
+                    <!-- image with bg -->
+                    <div class="w-1/4 p-2 bg-white  rounded-full ">
+                        <img src="./c2-assets/service.png" class="h-15 w-15">
+                    </div>
+                    <!-- text -->
+                    <h1 class="mt-4 max-sm:text-lg md:text-xl font-bold ">24/7 Services </h1>
+                    <p class="mt-3 mb-5 text-sm text-center">Our 24/7 service ensures you have access to support and assistance whenever you need it, day or night. .</p>
+                </div>
+
+                <!-- card 2 -->
+                <div class="p-3 md:p-5 bg-[#EFEBE3] flex flex-col items-center justify-center rounded-xl">
+                    <!-- image with bg -->
+                    <div class="w-1/4 p-2 bg-white  rounded-full ">
+                        <img src="./c2-assets/delivery.png" class="h-15 w-15">
+                    </div>
+                    <!-- text -->
+                    <h1 class="mt-4 max-sm:text-lg md:text-xl font-bold ">Fast delivery </h1>
+                    <p class="mt-3 mb-5 text-sm text-center">We offer fast delivery. Our streamlined processes and dedicated team work to get your purchases to you as soon as possible.</p>
+                </div>
+                <!-- card 3 -->
+                <div class="p-3 md:p-5 bg-[#EFEBE3] flex flex-col items-center justify-center rounded-xl">
+                    <!-- image with bg -->
+                    <div class="w-1/4 p-2 bg-white  rounded-full ">
+                        <img src="./c2-assets/healthy.png" class="h-15 w-15">
+                    </div>
+                    <!-- text -->
+                    <h1 class="mt-4 max-sm:text-lg md:text-xl font-bold ">Healthy products </h1>
+                    <p class="mt-3 mb-5 text-sm text-center">We offer healthy products designed to nourish your body and support your well-being.Keep you safe</p>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
     <!-- footer part -->
